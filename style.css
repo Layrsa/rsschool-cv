@@ -1,1 +1,149 @@
-111
+  h1, h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+  html {
+    scroll-behavior: smooth; 
+  }
+  
+  body {
+    padding: 0 0;
+    margin: 0 auto;
+  }
+
+  .header_box {
+    background-color: rgb(112, 218, 182);
+    width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .nav_item {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(9, 49, 36);
+    letter-spacing: 0.04em;
+    margin: 0 auto
+  }
+
+  a:hover {
+    cursor: pointer;
+    color: #ffd7c4;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  ul {
+    padding: 0 0 0 0;
+  }
+
+  .nav1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 40px 50px 40px;
+  }
+
+  .Me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Me_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 0 40px;
+  }
+
+  .h_grand {
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(9, 49, 36);
+    letter-spacing: 0.04em;
+  }
+
+  .Summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 800px;
+  }
+
+  .h_nogrand {
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(2, 23, 24);
+    margin: 20px 0 20px 0;
+  }
+
+  .Work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 800px;
+  }
+
+  .Skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 800px;
+  }
+
+  .Education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 800px;
+  }
+
+  .Languages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 800px;
+  }
+
+  .footer_box {
+    background-color: rgb(112, 218, 182);
+    width: 100%;
+  }
+
+  .foot1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 40px 50px 40px;
+  }
+
